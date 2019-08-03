@@ -143,7 +143,7 @@ $asciicode = " \033[1;30m
      BTC AUTO MINING SCRIPT FOR BTC REMOTE FARM   
 \033[0;34m==================================================
 \033[1;32m   Powered\033[1;31m    :\033[1;0m Worm Toxic LTS
-\033[1;32m   https://github.com/wormtoxic/btcremotefarm.git
+\033[1;32m   https://github.com/wormtoxic/btcremotefarm
 \033[1;32m   Copyright © 2019 «Все права сохранены»\033[1;31m
 ==================================================";
 
