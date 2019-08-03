@@ -13,7 +13,7 @@ $d = "\033[1;30m";
 
 function login($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/index.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/index.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         $headers = array();
@@ -47,7 +47,7 @@ function login($PHPSESSID){
 }
 function ball($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/ajax.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
         $headers = array();
@@ -66,7 +66,7 @@ function ball($PHPSESSID){
 }
 function start($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/ajax.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -83,7 +83,7 @@ function start($PHPSESSID){
 }
 function click($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/ajax.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -98,7 +98,7 @@ function click($PHPSESSID){
 }
 function setInterval($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/ajax.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
@@ -114,7 +114,7 @@ function setInterval($PHPSESSID){
 }
 function stop($PHPSESSID){
         $ch = curl_init();
-        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app15/ajax.php");
+        curl_setopt($ch, CURLOPT_URL, "http://cryptodiamonds.cryptoplanets.org/btcremotefarm/app16/ajax.php");
         curl_setopt($ch, CURLOPT_RETURNTRANSFER, 1);
         curl_setopt($ch, CURLOPT_POST, 1);
         curl_setopt($ch, CURLOPT_SSL_VERIFYPEER, 0);
